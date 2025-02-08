@@ -1,0 +1,91 @@
+/* All common css start  */
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+    line-height: 0.8;
+}
+/* All common css End  */
+
+/* Header part start   */
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+.contactBtn{
+    padding: 20px 30px;
+    border-radius: 18px;
+    background: #8454F5;
+    color: white;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.nav-item a{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+    color: #29313D;
+}
+/* Header part end  */
+
+/* Banner Part Start  */
+#bannerPart{
+    padding-top: 270px;
+    padding-bottom: 240px;
+    background: url(../images/bannerimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bannerText h1{
+    font-size: 65px;
+    font-weight: 800;
+    font-family: "Open Sans", serif;
+    color: #1D354F;
+    line-height: 70px;
+    
+}
+.bannerText p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", serif;
+    color: #1D354F;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    line-height: 180%;
+}
+/* Banner Part End  */
+
+/* Banner Part Start  */
+/* Banner Part End  */
+
+/* Banner Part Start  */
+/* Banner Part End  */
+
+/* Banner Part Start  */
+/* Banner Part End  */
+
+/* Banner Part Start  */
+/* Banner Part End  */
+
+
+
+/* font-family: "Open Sans", serif;
+font-family: "Nunito", serif;
+font-family: "Poppins", serif; */
