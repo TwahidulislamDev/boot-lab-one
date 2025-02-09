@@ -1,79 +1,139 @@
 /* All common css start  */
-*{
-    margin: 0px;
-    padding: 0px;
-    outline: 0px;
-    box-sizing: border-box;
-
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  box-sizing: border-box;
 }
-a,a:hover{
-    text-decoration: none;
-    display: inline-block;
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
 }
-ul,ol{
-    list-style: none;
+ul,
+ol {
+  list-style: none;
 }
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0px;
-    padding: 0px;
-    line-height: 0.8;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0px;
+  line-height: 0.8;
 }
 /* All common css End  */
 
 /* Header part start   */
-.navbar{
-    position: fixed;
-    width: 100%;
-    top: 0px;
-    left: 0px;
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
 }
-.contactBtn{
-    padding: 20px 30px;
-    border-radius: 18px;
-    background: #8454F5;
-    color: white;
+.contactBtn {
+  padding: 20px 30px;
+  border-radius: 18px;
+  background: #8454f5;
+  color: white;
 }
-.nav-item{
-    padding: 0 15px;
+.nav-item {
+  padding: 0 15px;
 }
-.nav-item a{
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Open Sans", serif;
-    color: #29313D;
+.nav-item a {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Open Sans", serif;
+  color: #29313d;
 }
 /* Header part end  */
 
 /* Banner Part Start  */
-#bannerPart{
-    padding-top: 270px;
-    padding-bottom: 240px;
-    background: url(../images/bannerimg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+#bannerPart {
+  padding-top: 270px;
+  padding-bottom: 240px;
+  background: url(../images/bannerimg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.bannerText h1{
-    font-size: 65px;
-    font-weight: 800;
-    font-family: "Open Sans", serif;
-    color: #1D354F;
-    line-height: 70px;
-    
+.bannerText h1 {
+  font-size: 65px;
+  font-weight: 800;
+  font-family: "Open Sans", serif;
+  color: #1d354f;
+  line-height: 70px;
 }
-.bannerText p{
-    font-size: 18px;
-    font-weight: 400;
-    font-family: "Nunito", serif;
-    color: #1D354F;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    line-height: 180%;
+.bannerText p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Nunito", serif;
+  color: #1d354f;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  line-height: 180%;
 }
 /* Banner Part End  */
 
-/* Banner Part Start  */
-/* Banner Part End  */
+/* Service Part Start  */
+#servicePart {
+  padding: 100px 0;
+}
+.commonTitle h3 {
+  font-size: 45px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+}
+.serviceItem {
+  padding: 30px 20px;
+  transition: 0.5s;
+}
+.cmb{
+    margin-top: 50px;
+}
+.serviceItem:hover {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(242, 242, 242, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(242, 242, 242, 1);
+  box-shadow: 0px 0px 20px 0px rgba(242, 242, 242, 1);
+  cursor: pointer;
+}
+.serviceItem h3 {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding: 20px 0;
+}
+.serviceItem p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", serif;
+  color: #29313d;
+  line-height: 130%;
+  padding-bottom: 20px;
+}
+.serviceItem a {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Nunito", serif;
+  color: #29313d;
+  transition: .4s;
+}
+.serviceItem a:hover {
+  /* padding: 10px 20px; */
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Nunito", serif;
+  color: #29313d;
+}
+
+/* Service Part End  */
 
 /* Banner Part Start  */
 /* Banner Part End  */
@@ -83,8 +143,6 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* Banner Part Start  */
 /* Banner Part End  */
-
-
 
 /* font-family: "Open Sans", serif;
 font-family: "Nunito", serif;
