@@ -313,93 +313,39 @@ p {
 .freeTrailCardItem i{
   padding-right: 10px;
 }
-/* Free Trail Part End  */
+/* Free Trail PartYour project
 
-/* Recent post part start  */
-#recentPostPart{
-  padding: 100px 0;
+/* Your project part start  */
+#yourProject{
+  padding: 70px 0;
 }
-.recentPostUpperPart{
-  padding-bottom: 50px;
-}
-.recentPostUpperPart h1{
-  font-size: 40px;
-  font-weight: 600;
-  font-family: "Poppins", serif;
-  color:#29313D;
-}
-.socialIcon i{
-  font-size: 30px;
-  padding-left: 20px;
-}
-.socialIcon p{
-  font-size: 25px;
-  font-weight: 600;
-  font-family: "Poppins", serif;
-  color:#29313D;
-}
-.blanketDiv{
+.yourProjeFlex{
   width: 100%;
-  height: 230px;
-  background: #c4c4c4;
+  height: 350px;
+  background: #8454f5;
+  border-radius: 50px;
+}
+.yourProjeFlex h2{
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #FDFDFD;
+  line-height: 120%;
+
+}
+.letsTalk{
+  padding: 8px 20px;
+  background-color: #F8FDFE;
   border-radius: 10px;
 }
-.roundedTextdiv{
-  margin-top: 20px;
-  padding-bottom: 15px;
-}
-.booming2023 h3{
-  font-size: 30px;
-  font-weight: 600;
-  font-family: "Poppins", serif;
-  color:#29313D;
-  line-height: 140%;
-  padding-right: 150px;
-}
-.booming2023 p{
-  font-size: 16px;
+.letsTalk a{
+  color: #1d354f;
+  font-size: 18px;
   font-weight: 400;
   font-family: "Nunito", serif;
-  color:#29313D;
-  line-height: 140%;
-}
-.clintId h4{
-  font-size: 20px;
-  font-weight: 600;
-  font-family: "Poppins", serif;
-  padding-bottom: 10px;
-}
-.clintId h5{
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Nunito", serif;  
-}
-.roundedDiv{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: #c4c4c4;
-  margin-right: 20px;
-}
-.instagramAccount i{
-  font-size: 30px;
-  color: #f60877;
-  padding-right: 10px;
-}
-.foureDivRightPart{
-  padding-top: 20px;
-}
-.onePart{
-  width: 45%;
-  height: 120px;
-  background: #c4c4c4;
-  margin: 10px;
 
 }
-/* Recent post part End  */
-
-/* Recent post part start  */
-/* Recent post part End  */
+/* Your project part End  */
 
 /* Recent post part start  */
 /* Recent post part End  */
