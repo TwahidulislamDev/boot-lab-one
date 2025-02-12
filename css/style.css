@@ -216,10 +216,9 @@ p {
 }
 /* LaunchPart Part End  */
 /* Showcaseart Part Start  */
-#showcasPart{
+#showcasPart {
   padding: 50px 0;
 }
-
 .commonheadLine h3 {
   font-size: 45px;
   font-weight: 600;
@@ -228,7 +227,7 @@ p {
   line-height: 140%;
   text-align: center;
 }
-.commonheadLine p{
+.commonheadLine p {
   font-size: 14px;
   font-weight: 400;
   font-family: "Poppins", serif;
@@ -237,19 +236,20 @@ p {
   text-align: center;
   padding-top: 10px;
 }
-.blankBox{
+.blankBox {
   width: 310px;
   height: 550px;
-  background: #C4C4C4;
+  background: #c4c4c4;
   margin: 10px;
   border-radius: 10px;
   margin-top: 50px;
 }
 /* Showcaseart Part End  */
-#companiesPart{
-  padding: 70px 0;
+/* companies Part Start  */
+#companiesPart {
+  padding: 70px 0Free Trail;
 }
-.campaniesTopText h3{
+.campaniesTopText h3 {
   font-size: 45px;
   font-weight: 600;
   font-family: "Poppins", serif;
@@ -257,7 +257,7 @@ p {
   line-height: 140%;
 }
 .companybox {
-  background: #F3F7FD; /* Light background */
+  background: #f3f7fd; /* Light background */
   font-size: 18px;
   font-weight: 400;
   border-radius: 10px;
@@ -269,12 +269,50 @@ p {
   justify-content: center;
   /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
 }
-/* companies Part Start  */
-
 /* companies Part End  */
 
-/* Banner Part Start  */
-/* Banner Part End  */
+/* Free Trail Part Start  */
+#freeTrailPart{
+  padding: 80px 0;
+}
+.freeItem{
+  height: 440px;
+  background:;
+  padding-left: 5px;
+}
+.freeItem:hover {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(242, 242, 242, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(242, 242, 242, 1);
+  box-shadow: 0px 0px 20px 0px rgba(242, 242, 242, 1);
+  cursor: pointer;
+}
+.freeItem h3{
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 2px solid rgb(203, 203, 203);
+  font-family: "Poppins", serif;
+}
+.freeTrailCard{
+  padding: 0 25px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+
+}
+.freeTrailCard h4{
+  font-size: 45px;
+  font-weight: 600;
+}
+.freeTrailCardItem{
+  padding: 0 25px;
+  padding-bottom: 22px;
+  
+}
+.freeTrailCardItem i{
+  padding-right: 10px;
+}
+/* Free Trail Part End  */
 
 /* font-family: "Open Sans", serif;
 font-family: "Nunito", serif;
