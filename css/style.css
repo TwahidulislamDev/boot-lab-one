@@ -12,7 +12,7 @@ a:hover {
 }
 ul,
 ol {
-  list-style: none;
+  list-style-type: none;
 }
 h1,
 h2,
@@ -347,8 +347,42 @@ p {
 }
 /* Your project part End  */
 
-/* Recent post part start  */
-/* Recent post part End  */
+/* Footer  part start  */
+#footerPart{
+  padding: 50px 0;
+}
+.footLogo p{
+  line-height: 150%;
+  color: #29313D;
+}
+.footLink{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.footLink h3{
+  text-align: center;
+}
+.footLink ul li{
+  padding-top: 10px;
+}
+.copyRight h4{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nunito", serif;
+}
+.termsCondition h5{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nunito", serif;
+}
+.termsCondition p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nunito", serif;
+  padding-left: 20px;
+}
+/* Footer  part End  */
 
 /* Recent post part start  */
 /* Recent post part End  */
