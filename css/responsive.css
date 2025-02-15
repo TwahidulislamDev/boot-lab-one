@@ -30,6 +30,19 @@
     color: #ffff;
   }
   .nav-link {
-	padding: 15px !important;
-}
+    padding: 15px !important;
+  }
+  #bannerPart {
+    padding-top: 90px;
+    padding-bottom: 70px;
+    text-align: center;
+  }
+  .bannerText h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .bannerText p {
+    font-size: 14px;
+    padding-bottom: 25px;
+  }
 }
