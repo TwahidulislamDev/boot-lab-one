@@ -45,4 +45,13 @@
     font-size: 14px;
     padding-bottom: 25px;
   }
+  #servicePart {
+    padding: 10px 0;
+  }
+  .commonTitle h3 {
+    font-size: 35px;
+  }
+  .serviceItem {
+    text-align: center;
+  }
 }
